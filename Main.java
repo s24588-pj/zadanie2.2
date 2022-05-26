@@ -20,7 +20,7 @@ public class Main {
         listOfOfferedCars.add(new Cars(40000, "renault scenic", 2012, 50000, "2021 01 01"));
         listOfOfferedCars.add(new Cars(90000, "renault laguna", 2018, 25000, "2022 12 18"));
 
-        List<Cars> Result = null; // probowalem zamienic na arraylist i sie krzaczy zobacz jutro!!! geeksforgeeks przedostatnia strona wazna i ostatnia
+        List<Cars> Result = null; 
 
         for (Cars car : listOfOfferedCars) {
             System.out.println(car.toString());
